@@ -7,8 +7,9 @@ The adapter is very simple to make.
 Just requires soldering an xbox input connector to a Pico. Or a usb connector, and use a xbox to usb dongle.
 
 ## Features
+Output as HID with 8 analog axis and 62 digital buttons.
 
-A PS4, PS5 or Xbox controller can be used to help with input mapping on emulators.
+It can control the device LEDs but there's no interface for it. I might do something in the future to receive commands via serial COM port.
 
 ## Building
 Check the wiring guidance [here](https://github.com/sekigon-gonnoc/Pico-PIO-USB/discussions/7).
